@@ -1,8 +1,11 @@
+//Functions
 function greet() {
     console.log("Hello, World!");
 }
 
 console.log(greet());
+
+//Variable 
 
 let intNum = 42;
 let floatNum = 3.14;
@@ -22,7 +25,7 @@ let notAssigned;
 console.log(notAssigned); // undefined
 
 
-
+// Variable Scope
 var globalVar = "I'm a global variable";
 let blockVar = "I'm a block-scoped variable";
 const constantVar = "I cannot be reassigned";
@@ -38,7 +41,6 @@ let strToNum = Number('123'); // 123
 let numToStr = String(123); // '123'
 let boolToNum = Number(true); // 1
 let numToBool = Boolean(0); // false
-
 
 
 
